@@ -1,30 +1,9 @@
 @import url("bootstrap.css");
 @import url("bootstrap.min.css");
-
-body{
-  background-image: url("");
-  background-color: black;
-  color: steelblue;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-
-header{
-  color:white;
-  text-align: center;
-}
-
-p{
-  text-align: center;
-  border-style: solid;
-  border-color: black;
-  background-color: black;
-}
-
-.order{
-  text-align: center;
-}
-
-footer{
-  text-align: end;
+*{
+padding: opx;
+margin: 0px;  
+border: 5px solid gainsboro;
+background-color: white;
+text-align: center;
 }
