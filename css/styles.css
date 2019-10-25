@@ -1,0 +1,14 @@
+@import url("bootstrap.css");
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.min.css");
+body{
+  background-color: bisque;
+  color: steelblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+  border: 199px;
+  background-color: grey;
+  color:burlywood;
+}
