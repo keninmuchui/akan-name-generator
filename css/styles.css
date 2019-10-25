@@ -10,4 +10,11 @@ text-align: center;
 
 header{
   color: rebeccapurple;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+p{
+  font-style: italic;
+  margin-bottom: 10px;
 }
