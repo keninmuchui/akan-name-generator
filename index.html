@@ -5,38 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HomePage</title>
-    
-    <link rel="stylesheet" href="bootstrapcss/bootstrap.css" />
-    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <li></li>
   </head>
-  <body> 
-     <header>
-       <h1>AKAN NAME GENERATOR</h1>
-     </header>
-    
-      <p>
-        Akan names are derived from Ghanian culture. Frequently in Ghana,<br>
-        children are given their first name as a 'day name' which corresponds to
-        the day <br>in the week they were born. This is
-        a web application that takes a user's birthday and calculates the day of
-        <br>the week they were born and then depending on their gender outputs their
-        Akan name.
-      </p>
+  <body>
+    <header>
+      <h1>AKAN NAME GENERATOR</h1>
+    </header>
 
-    
+    <p>
+      Akan names are derived from Ghanian culture. Frequently in Ghana,<br />
+      children are given their first name as a 'day name' which corresponds to
+      the day <br />in the week they were born. This is a web application that
+      takes a user's birthday and calculates the day of <br />the week they were
+      born and then depending on their gender outputs their Akan name.
+    </p>
+
     <div class="order">
       <form action=""></form>
       <p>ENTER YOUR DETAILS</p>
+      <br />
       <label for="birth-date">Date</label>
       <input type="number" name="birth-date" required />
+      <br />
+
       <br />
       <label for="birth-month">Month</label>
       <input type="text" name="birth-month" required />
       <br />
+      <br />
+
       <label for="birth-year">Year</label>
       <input type="number" name="birth-year" required />
-
+      <br />
       <div>
+        <br />
         <select name="gender" id="Gender">
           <option value="male">Male</option>
           <option value="female">Female</option>
@@ -44,9 +47,13 @@
       </div>
       <br />
 
-      <button><input type="submit" /></button>
+      <button><input type="submit"></button>
+      <button><input type="reset"></button>
     </div>
+  </form>
+  <br />
     <div>
+     
       <footer>
         <p>&copy2019 Kenin Muchui</p>
       </footer>

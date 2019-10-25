@@ -1,14 +1,30 @@
 @import url("bootstrap.css");
 @import url("bootstrap.min.css");
-@import url("bootstrap-theme.min.css");
+
 body{
-  background-color: bisque;
+  background-image: url("");
+  background-color: black;
   color: steelblue;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 header{
-  border: 199px;
-  background-color: grey;
-  color:burlywood;
+  color:white;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  background-color: black;
+}
+
+.order{
+  text-align: center;
+}
+
+footer{
+  text-align: end;
 }
