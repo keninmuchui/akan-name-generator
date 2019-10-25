@@ -20,11 +20,11 @@ This is a web application that takes a user's birthday and calculates the day of
 
 ## Technologies Used
 
-> HTML
-> CSS
-> Virtual Studio Code
-> Bootstrap
-> Javascript
+>HTML
+>CSS
+>Virtual Studio Code
+>Bootstrap
+>Javascript
 
 ## Known Bugs
 
