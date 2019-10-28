@@ -6,13 +6,11 @@ By Ncunge Kenin Muchui
 
 ## Screenshots
 
-<img src(Screenshot.png)>
+<img src="images/Screenshot.png">
 
 ## Description
 
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan name.
-
-### Live Link
 
 ## Project setup
 
