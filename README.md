@@ -2,9 +2,11 @@
 
 ## Author
 
-This web application is made by Ncunge Kenin Muchui
+By Ncunge Kenin Muchui
 
 ## Screenshots
+
+<img src('Screenshot.png')>
 
 ## Description
 
@@ -14,9 +16,15 @@ This is a web application that takes a user's birthday and calculates the day of
 
 ## Project setup
 
--Run on any web browser
+- Run on any web browser
 
-## BDD
+- Open the web application
+
+- Enter your birthdate and gender
+
+- Get your Akan name
+
+- No scripts needed to be run
 
 ## Technologies Used
 
@@ -28,13 +36,11 @@ This is a web application that takes a user's birthday and calculates the day of
 
 ## Known Bugs
 
-Incase you encounter any bugs, contact me through my email link rel="stylesheet" href="keninmuchui@gmail.com"
-
-## Contributing Changes
+No known bugs
 
 ## Support and Contact Details
 
-You can contact me through my email: keninmuchui@gmail.com
+You can contact me through my email: keninmuchui@gmail.com or <("https://github.com/keninmuchui)>
 
 ## License
 
