@@ -6,7 +6,7 @@ By Ncunge Kenin Muchui
 
 ## Screenshots
 
-<img src('Screenshot.png')>
+<img src(Screenshot.png)>
 
 ## Description
 
@@ -40,7 +40,7 @@ No known bugs
 
 ## Support and Contact Details
 
-You can contact me through my email: keninmuchui@gmail.com or <("https://github.com/keninmuchui)>
+You can contact me through my email: keninmuchui@gmail.com or https://github.com/keninmuchui
 
 ## License
 
