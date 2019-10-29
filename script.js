@@ -2,8 +2,8 @@ function akanName() {
   var maleArray = [
     "Kwasi",
     "Kwadwo",
-    "Kwaku",
     "Kwabena",
+    "Kwaku",
     "Yaw",
     "Kofi",
     "Kwame"
