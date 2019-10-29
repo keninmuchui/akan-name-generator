@@ -1,67 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>WEEK2IP</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="styles.css" />
-  <script src="script.js"></script>
-  <title>WEEK2IP</title>
-</head>
+  <body class="container">
+    <header>
+      <div class="jumbotron">
+        <h1>AKAN NAME GENERATOR</h1>
+      </div>
+    </header>
 
-<body class="container">
-  <header>
-    <div class="jumbotron">
-      <h1>AKAN NAME GENERATOR</h1>
+    <div class="description">
+      <p>
+        Akan names are derived from Ghanian culture. Frequently in Ghana,<br />
+        children are given their first name as a 'day name' which corresponds to
+        the day <br />in the week they were born. This is a web application that
+        takes a user's birthday and calculates the day of <br />the week they
+        were born and then depending on their gender outputs their Akan name.
+      </p>
     </div>
-  </header>
+    <div class="form">
+      <form>
+        Year:
+        <br />
+        <input
+          type="number"
+          id="year"
+          placeholder="YYYY"
+          required
+          min="1900"
+          max="2018"
+        />
 
-  <div class="description">
-    <p>
-      Akan names are derived from Ghanian culture. Frequently in Ghana,<br />
-      children are given their first name as a 'day name' which corresponds to
-      the day <br />in the week they were born. This is a web application that
-      takes a user's birthday and calculates the day of <br />the week they were
-      born and then depending on their gender outputs their Akan name.
-    </p>
-  </div>
-  </div>
-  <div class="form">
-    <form>
-      Year: <br>
-      <input type="number" id="year" placeholder="YYYY" required min="1900" max="2018" />
+        <br />
+        <br />
 
-      <br />
-      <br />
+        Month: <br />
+        <input
+          type="number"
+          id="month"
+          placeholder="MM"
+          required
+          min="1"
+          max="12"
+        />
 
-      Month: <br>
-      <input type="number" id="month" placeholder="MM" required min="1" max="12">
+        <br />
+        <br />
 
-      <br />
-      <br />
+        Day: <br />
+        <input
+          type="number"
+          id="day"
+          placeholder="DD"
+          required
+          min="1"
+          max="31"
+        />
+        <br />
 
-      Day: <br>
-      <input type="number" id="day" placeholder="DD" required min="1" max="31" />
-      <br />
+        Choose your gender:<br />
+        <input type="radio" name="gender" value="male" id="male" /> Male<br />
+        <input type="radio" name="gender" value="female" id="female" />
+        Female<br />
+        <br />
 
-      Choose your gender:<br>
-      <input type="radio" name="gender" value="male" id="male"> Male<br>
-      <input type="radio" name="gender" value="female" id="female"> Female<br>
-      <br>
+        <button type="submit" onclick="akanName()" id="submit">Submit</button>
+        <input type="reset" />
+      </form>
+    </div>
 
-      <button type="submit" onclick="akanName()" id="submit">Submit</button>
-      <input type="reset">
-    </form>
-  </div>
-  </div>
-
-  
- <div>
-    <h6> The Akan Name Generator<br>
-      Copyright &copy2019  <br> Kenin Muchui</h6>
-  </div>
-
-</body>
-
+    <div>
+      <h6>
+        The Akan Name Generator<br />
+        Copyright &copy2019 <br />
+        Kenin Muchui
+      </h6>
+    </div>
+  </body>
 </html>
