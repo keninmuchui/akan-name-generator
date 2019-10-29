@@ -23,24 +23,18 @@ function akanName() {
   var month = parseInt(document.getElementById("month").value);
   var day = parseInt(document.getElementById("day").value);
   var male = document.getElementById("male");
-  var male = document.getElementById("female");
+  var female = document.getElementById("female");
 
   var day = new Date(year + "/" + month + "/" + day);
-  var dateofbirth = day.getday();
+  var dob = day.getDay();
 
   if (male.checked == true) {
     alert(
-      "you were born on " +
-        daysArray[day] +
-        " and your akan name is " +
-        maleArray(day)
+      "you were born on " + daysArray[dob] + " and your akan name is " + maleArray[dob]
     );
   } else if (female.checked == true) {
     alert(
-      "you were born on " +
-        daysArray[day] +
-        " and your akan name is " +
-        femaleArray(day)
+      "you were born on " + daysArray[dob] + " and your akan name is " + femaleArray[dob]
     );
   } else {
     alert("an error occured");
